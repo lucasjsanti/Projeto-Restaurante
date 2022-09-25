@@ -1,0 +1,285 @@
+#container {
+	background: url(../Imagens/slide2.png)no-repeat;
+}
+
+.navbar {
+	background-color: #552e1b !important;
+	font-family: 'Staatliches', cursive;
+	font-size: 1.3rem;
+}
+
+
+.slide {
+	background-image: url("../images/fundo2.jpg");
+	background-size: cover;
+	font-family: 'Anek Latin', sans-serif;
+	padding-top: 10rem;
+	padding-bottom: 10rem;
+}
+
+.imagemSobre {
+	height:22rem; 
+	width: 100%;
+	object-fit: cover;
+}
+
+.imagemCardapio {
+	height: 18rem;
+	width: 100%;
+	object-fit: cover;
+	border-radius: 0.3rem;
+}
+
+
+.tituloSecao {
+	font-family: 'Staatliches', cursive;
+	font-weight: 600;
+	text-align: center;
+	color: white;
+}
+
+p {
+	font-family: 'Anek Latin', sans-serif;
+	font-weight: 300;
+	font-size: 1.5rem;
+	text-align: justify;
+	color: white;
+}
+
+span {
+	font-family: 'Anek Latin', sans-serif;
+	font-weight: 300;
+	font-size: 1.5rem;
+	text-align: justify;
+}
+
+
+#rodape {
+	color: white;
+	text-align: center;
+}
+
+/* Media Queries */
+
+/* Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) { 
+
+	.gm-style-moc {
+		justify-items: center;
+	}
+
+	.imagemRodape {
+		text-align:  center !important;
+	}
+
+	.bi-house-door-fill {
+		font-size: 0.9rem;
+	}
+
+	.bi-envelope-fill {
+		font-size: 0.9rem;
+	}
+	
+	.bi-telephone-fill {
+		font-size: 0.9rem;
+	}
+	
+	.textoRodape {
+		font-size: 0.95rem !important;
+	}
+
+
+ }
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+	.imagemRodape {
+		text-align:  center !important;
+	}
+
+  }
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) { 
+
+	.imagemRodape {
+		text-align:  center !important;
+	}
+ }
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+
+	.imagemRodape {
+		text-align:  center !important;
+	}
+ }
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {}
+
+/* ícones sociais */
+
+.fa {
+	width: 0.5rem;
+	height: 0.8rem;
+ 	text-align: center;
+  	text-decoration: none;
+ 	margin: 5px 2px;
+}	
+
+/* Facebook */
+ 
+ .fa-facebook {
+  	background: #552e1b;
+ 	color: white;
+ }
+
+ /* Instagram */
+  .fa-instagram {
+   	background: #552e1b;
+ 	color: white;
+ }
+
+ /* whatsapp */
+  .fa-whatsapp {
+   	background: #552e1b;
+ 	color: white;
+ }
+
+ .fa:hover {
+ 	color: #ba6542;
+ }
+
+ .bi {
+ 	width: 35px;
+ 	text-align: center;
+  	text-decoration: none !important;
+ 	margin: 5px 2px;
+ }
+
+ /* House Icon */
+ .bi-house-door-fill {
+ 	background: #552e1b;
+ 	color: white;
+ }
+
+ /* Envelope Icon */
+ .bi-envelope-fill {
+ 	background: #552e1b;
+ 	color: white;
+ }
+
+  /* Cellphone Icon */
+  .bi-telephone-fill {
+	background: #552e1b;
+	color: white;
+}
+
+
+input.botaoCardapio {
+	text-transform: uppercase;
+	width: 250px;
+	height: 50px;
+	border-style: none;
+	border-radius: 0.5rem;
+	color: #ffffffb5;
+	background: #593321 !important;
+	font-weight: bolder;
+}
+
+input.botaoCardapio:hover{
+	background: #513a2f87!important;
+	opacity: 1.0;
+}
+
+input.botaoFinalizar {
+	text-transform: uppercase;
+	width: 250px;
+	height: 50px;
+	border-style: none;
+	border-radius: 0.3rem;
+	color: #ffffffb5;
+	background: #593321 !important;
+	font-weight: bolder;	
+	color: #ffffffb5;
+	text-align: center;
+}
+
+input.botaoFinalizar:hover {
+	background: #513a2f87!important;
+	opacity: 1.0;
+}
+
+textarea {
+	width: 100%;
+	height: 1rem;
+}
+
+#inputPedido {
+	width: 20rem;
+	margin-left: 2rem;
+}
+ 
+#inputPagamento {
+	width: 20rem;
+	margin-left: 1rem;
+}
+
+#inputForm {
+	width: 39rem;
+}
+
+/* cardápio */
+
+.card-link {
+	text-decoration: none;
+	font-size: 0.8rem;
+	color: black;
+
+}
+
+.card-link:hover {
+	color: #ffffffb5;
+}
+
+button.botaoCardapio2 {
+	width: 5rem;
+	height: 2rem;
+	padding: 5px;
+	border-style: none;
+	border-radius: 0.3rem;
+	color: #ffffffb5;
+	font-weight: bolder;	
+	cursor: pointer;
+	text-align: center;
+}
+
+button.botaoCardapio2:hover {
+	background: orangered !important;
+	opacity: 1.0;
+}
+
+.card:hover {
+	opacity: 0.6;
+	cursor: pointer;
+	background: white;
+}
+
+img.height {
+	object-fit: cover;
+	height: 12.74rem;
+
+}
+
+
+
+
+
+
+
+
+
+
+

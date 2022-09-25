@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Restaurante - Início</title>
+
+    <!-- Estilo Customizado CSS -->
+    <link rel="stylesheet" type="text/css" href="css/estilo.css">
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">  
+    <link href="https://fonts.googleapis.com/css2?family=Anek+Latin:wght@100;300;400;700&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Anek+Latin:wght@100;400;700&family=Titan+One&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+
+    <!-- JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  </head>
+
+  <body>
+    <!-- Ínício conteúdo -->
+    <div id="container" class="container-fluid p-0"> 
+
+      <!-- Barra de Navegação -->
+       <nav class="navbar navbar-expand-lg navbar-dark pl-5 pr-5 fixed-top">
+        <div>          
+          <a href="#"><img class="navbar-brand" height="86" src="images/logo.png"/></a>
+        </div>
+        
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse pl-3 mt-2" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto text-center">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Principal</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#sobrenos">Sobre Nós</a>
+            </li>    
+            <li class="nav-item">
+              <a class="nav-link" href="#cardapio">Cardápio</a>
+            </li> 
+            <li class="nav-item">
+              <a class="nav-link" href="#pecaonline">Peça Online</a>
+            </li> 
+            <li class="nav-item">
+              <a class="nav-link" href="#faleconosco">Fale Conosco</a>
+            </li>         
+          </ul>          
+        </div>
+      </nav>
+
+      <!-- Counteúdo -->
+      
+      <div class="row">
+        <div class="col-12">
+          <div class="slide d-flex flex-column align-items-center">
+            <span class="display-4 text-center" style="font-weight: 700;">A sua história começa aqui!</span>
+            <h2 class="text-center" style="font-weight: 300;">Venha conhecer nosso restaurante</h2>
+
+            <a href="cardapio.html"><input class="mt-3 botaoCardapio" type="button" value="Nosso Cardápio"></a>
+          </div>
+        </div>        
+      </div>
+        
+      <!-- Sobre nós -->
+
+      <div class="row px-5" style="background: #4a3b2d;" id="sobrenos">
+        <div class="col-12 text-center py-5">
+          <h2 class="tituloSecao">Sobre nós</h2>
+        </div>
+        <div class="col-12">
+          <img src="images/restaurante.jpg" class="imagemSobre">
+        </div>
+          <div class="col-12 align-self-center py-4">
+            <p class="text-justify" >
+              Fundado em abril de 2016 por um grupo de irmãos, que levam à sério o ato de cozinhar e a logística de funciomento do restaurante. A idéia de abrir o próprio negocio veio de um dos irmãos, devido ao cardápio de alguns restaurantes da região serem os mesmos, não tinha nada de diferente e novidade. Por conta disso, eles avaliaram pratos diferentes, e de acordo com o costume e cultura local. A implementação foi aos poucos, além de muito aprendizado, o sistema foi ficando cada vez melhor, além da logística melhorada e sistema de gerenciamento capaz de suprir a demanda. 
+              <br>Em meados de 2017, eles implementaram o "peça online", para que os clientes pudesssem solicitar de casa. Hoje contamos com várias franquias espalhadas pelo país, sempre oferecendo atendimento de qualidade e um variedade de pratos.
+            </p>
+          </div>
+        </div>
+
+        <div class="row align-self-center p-5 px-5 py-3" style="background:#4a3b2d; justify-content: center;">
+          <div class="cardCarp py-5 px-2 ml-4 mb-3" style="width: 40rem; background: #6c62549e;">
+            <div class="card-body">
+              <h5 class="card-title tituloSecao text-light" style="letter-spacing: 0.2rem;">Melhor visão</h5>
+
+              <p class="card-text text-light">
+                Nosso restaurante está localizado em uma área totalmente verde, com ar fresco e puro. Além disso, há uma visão panorâmica da cidade e de uma densa floresta. 
+              </p>
+            </div>
+          </div>
+
+          <div class="cardCarp py-5 px-2 ml-4 mb-3" style="width: 40rem; background:#6c62549e;">
+            <div class="card-body ">
+              <h5 class="card-title tituloSecao text-light" style="letter-spacing: 0.2rem;">Melhor cardápio</h5>
+
+              <p class="card-text text-light">
+                Nosso cardápio foi preparado pensando totalmente em você! Com entradas excepcionais, temos uma diversidade de pratos deliciosos e, sobremesa de dar água na boca. Também é possível solicitar o pedido pelo nosso cardápio virtual.
+              </p>
+            </div>
+          </div>
+
+          <div class="cardCarp py-5 px-2 ml-4 mb-3" style="width: 40rem; background:#6c62549e;">
+            <div class="card-body">
+              <h5 class="card-title tituloSecao text-light" style="letter-spacing: 0.2rem;">Melhor equipe</h5>
+
+              <p class="card-text text-light">
+                Temos uma equipe de garçons profissionais, oferencendo um atendimento de qualidade. Além disso, contamos com profissionais na cozinha para preparar pratos com qualidade, agilidade e eficiência. Nossa equipe de gerentes estão sempre a seu dispor.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div> 
+        <!-- Fim sobre nós -->
+            
+        <!-- Cardápio -->
+
+          <div class="row justify-content-md-center py-4" style="background: #ac9b87;" id="cardapio"> <!--Início cardápio -->
+                <div class="row col-12 py-5 justify-content-center text-center" style="margin-left:0.1rem;">
+                  <h2 class="tituloSecao" style="color: #28140b;">Cardápio</h2>
+                </div>
+                 <div class="col-12 col-xl-4 p-5">
+                    <h2 class="tituloSecao" style="color: #28140b;">Salmão</h2>
+                    <img src="images/prato1.jpg" class="imagemCardapio d-none d-sm-block">
+                    <p style="color: #28140b;" class="py-4">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                </div>            
+                
+                 <div class="col-12 col-xl-4 p-5">
+                    <h2 class="tituloSecao" style="color: #28140b;">Carne ao molho</h2>
+                    <img src="images/carneaomolho.jpg" class="imagemCardapio d-none d-sm-block text-center">
+                    <p style="color: #28140b;" class="py-4">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                 </div>
+
+                  <div class="col-12 col-xl-4 p-5">
+                    <h2 class="tituloSecao" style="color: #28140b;">Filé mignon</h2>
+                     <img src="images/filemignon2.jpg" class="imagemCardapio d-none d-sm-block">
+                    <p style="color: #28140b;" class="py-4">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p> 
+                 </div>
+          </div>
+          <!-- Fim cadárpio -->
+
+          <!-- Online texto -->
+        <div class="row justify-content-md-center py-5" style="background:#d5d7d6;">
+                <div class="row col-12 py-4 justify-content-center" style="margin-left:0.1rem;">
+                  <h2 class="tituloSecao sm" style="color: #28140b;" id="pecaonline">Peça Online</h2>
+                </div>
+              <div class="col-12 col-xl-4 p-5 align-self-center text-center">
+                <h2 class="py-2 tituloSecao" style="color: #28140b;">Levamos até você</h2>
+                <span  style="font-weight:400;color: #28140b;" class="py-1">Quer receber seu pedido, sem sair de casa?!</span><br>
+                <span style="font-weight:400;color: #28140b;" class="py-5"> Conte com a gente, e entregamos no conforto de sua casa.</span>
+              </div>      
+
+              <!-- Formulário-->
+              <div class="col-12 col-xl-4 p-5" style="background: #28140b59;"> 
+                <a href="formulario.html"><h2 class="tituloSecao pb-3" style="color: #28140b;">Preencha o formulário</h2></a>
+                <form>
+                    <div class="form-group row">
+                      <label for="Nome" class="col-sm-2 col-form-label" style="font-weight: 700">Nome</label>
+                      <div class="col-sm-10">
+                        <input type="text" class="form-control ml-3" id="Nome" placeholder="Nome" required>
+                      </div>
+                    </div>
+                    <div class="form-group row">
+                      <label for="Endereço" class="col-sm-2 col-form-label" style="font-weight: 700">Endereço</label>
+                      <div class="col-sm-10">
+                        <input type="text" class="form-control ml-3" id="Endereço" placeholder="Seu endereço" required>
+                      </div>
+                    </div>
+                    <div class="form-group row">
+                      <label for="complemento" class="col-sm-2 col-form-label" style="font-weight: 700">Complemento</label>
+                      <div class="col-sm-10">
+                        <input type="text" class="form-control ml-3" id="complemento" placeholder="Ex: casa, apartamento" required>
+                      </div>
+                    </div>
+                    <div class="form-group row">
+                      <label for="ponto de referência" class="col-sm-2 col-form-label d-block" style="font-weight: 700">Ponto de referência</label>
+                      <div class="col-sm-10 align-self-center">
+                        <input type="text" class="form-control ml-3" id="ponto de referência" placeholder="Ex: em frente à padaria" required>
+                      </div>
+                    </div>
+                     <div class="form-group row">
+                      <label for="CPF/CNPJ" class="col-sm-2 col-form-label" style="font-weight: 700">CPF/CNPJ</label>
+                      <div class="col-sm-10">
+                        <input type="text" class="form-control ml-3" id="CPF/CNPJ" placeholder="Seu CPF/CNPJ">
+                      </div>
+                    </div>
+                    <div class="form-group row">
+                      <label for="pedido" class="col-sm-2 col-form-label" style="font-weight: 700">Entradas</label>
+                      <select id="inputPedido" class="form-control" required>
+                        <option selected>Selecione a entrada...</option>
+                        <option>Brushettas</option>
+                        <option>Cestinha de massa pastel</option>
+                        <option>Polenta frita com queijo ralado</option>
+                        <option>Torradas</option>
+                        <option>Batata frita com queijo e bacon</option>
+                        <option>Salada Italiana</option>
+                      </select>
+                    </div>
+                    <div class="form-group row">
+                      <label for="pedido" class="col-sm-2 col-form-label" style="font-weight: 700">Pedido principal</label>
+                      <select id="inputPedido" class="form-control" required style="align-self: center;">
+                        <option selected>Selecione o pedido...</option>
+                        <option>Salmão</option>
+                        <option>Arroz yakimeshi</option>
+                        <option>Carne assada no forno</option>
+                        <option>Batata gratinada</option>
+                        <option>Rocambole de carne moída</option>
+                        <option>Carne ao molho madeira</option>
+                        <option>Filé mignon</option>
+                        <option>Escondidinho carne</option>
+                        <option>Rabada</option>
+                        <option>Canelone de frango</option>
+                      </select>
+                    </div>
+                    <div class="form-group row">
+                      <label for="pedido" class="col-sm-2 col-form-label" style="font-weight: 700">Sobremesa</label>
+                      <select id="inputPedido" class="form-control" required>
+                        <option selected>Selecione...</option>
+                        <option>Não</option>
+                        <option>Mousse de leite</option>
+                        <option>Torta de sorvete</option>
+                        <option>Manjar de prestígio</option>
+                        <option>Pavê - torta de limão</option>
+                        <option>Minicheesecake de biscoito</option>
+                      </select>
+                    </div>
+                    <fieldset class="form-group">
+                      <div class="row">
+                        <legend class="col-form-label col-sm-2 pt-0" style="font-weight: 700">Forma de Pagamento</legend>
+                        <div class="col-sm-10">
+                          <select id="inputPagamento" class="form-control" required style="margin-top:0.5rem;">
+                            <option selected>Selecione a forma de pagamento...</option>
+                            <option>Dinheiro</option>
+                            <option>Cartão de crédito</option>
+                            <option>Cartão de débito</option>
+                            <option>Transferência bancária</option>
+                          </select>
+                        </div>
+                      </div>
+                    </fieldset>
+                    <div class="form-group row">
+                      <div class="col-sm-10">
+                        <input type="submit" class="botaoFinalizar" value="Enviar pedido">
+                      </div>
+                    </div>
+                </form>
+              </div> <!--Fim formulário --> 
+          </div>
+            <!-- Fale Conosco -->
+          <div class=" row justify-content-md-center py-5=" style="background: #b9b9b900;" id="cardapio">
+            <div class="row col-12 py-5 justify-content-center">
+              <h2 class="tituloSecao" style="color: #28140b;">Fale conosco</h2>
+            </div>
+            <!-- Formulário-->
+          
+            <div class="col-12 col-xl-4 p-5 text-center" style="background: #b9b9b900;"> 
+              <h2 class="tituloSecao py-4" style="color: #28140b;">Preencha o formulário</h2>
+                <form id="inputForm">
+                    <div class="form-group row">
+                    
+                      <div class="col-sm-10">
+                        <input type="text" class="form-control ml-1" id="Nome" placeholder="Nome" required>
+                      </div>
+                    </div>
+                    <div class="form-group row">
+          
+                      <div class="col-sm-10">
+                        <input type="text" class="form-control ml-1" id="Sobre Nome" placeholder="Seu sobrenome" required>
+                      </div>
+                    </div>
+                    <div class="form-group row">
+              
+                      <div class="col-sm-10">
+                        <input type="email" class="form-control ml-1" id="email" placeholder="Seu email" required>
+                      </div>
+                    </div>
+                    <div class="form-group row">
+            
+                      <div class="col-sm-10 align-self-center">
+                        <textarea placeholder="Digite sua mensagem" class="col-form form-control ml-1" style="height: 10rem;"></textarea>
+                      </div>
+                    </div>
+
+                    <div class="form-group row">
+                      <div class="col-sm-10">
+                        <input type="submit" class="bg-dark botaoFinalizar" value="Enviar">
+                      </div>
+                    </div>
+                </form>
+            
+            </div> 
+              <!--Fim formulário -->
+
+              <!-- Localização -->
+              <div class="col-12 col-xl-4 text-center p-5" style="background: #b9b9b900;"> 
+                <h2 class="tituloSecao py-4" style="color: #28140b;" id="faleconosco">Onde estamos</h2>
+                <div>
+                  <frame>
+                    <iframe 
+                      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3679.3969264703182!2d-43.48718244898386!3d-22.75064633796567!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x995d8736373db1%3A0xb3bd5486599bb11b!2sEstr.%20Dr.%20M%C3%A1rio%20Pinotti%2C%20130%20-%20Comendador%20Soares%2C%20Nova%20Igua%C3%A7u%20-%20RJ%2C%2026265-425!5e0!3m2!1spt-BR!2sbr!4v1656383825086!5m2!1spt-BR!2sbr" width="500" height= "320" style="border:0;"   allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                  </frame><br>
+                  <span style="font-weight:400;color: #28140b;" class="py-1 align-items-center">Estrada Doutor Mário Pinoti, 130/101</span>
+                  <br>
+                  <span style="font-weight:400;color: #28140b;" class="py-1 text-center">26262-130 - Nova Iguaçu/RJ</span><br>
+                  <span style="font-weight:400;color: #28140b;" class="py-1 text-center">(21)980844172 | (21)3103-4022 </span>
+                </div>
+              </div> <!-- fim localização -->
+          </div><!-- Fim fale conosco -->
+        </div>  <!-- fim online -->         
+    </div> <!-- Fim conteudo -->
+
+    <!-- Rodapé-->
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-12 d-flex pt-3 pb-3" style="background:#552e1b;">
+          <div class="col-6 imagemRodape align-self-center" style="text-align:right;">
+            <a href="#"><img class="navbar-brand" height="75" src="images/logo.png"/></a>
+          </div>
+          <div class="col-6 " style="text-align:left;">
+              <div>
+                <i class="bi bi-house-door-fill"></i>
+                <span style="font-size:1.0rem; color: white;" class="textoRodape">Estrada Doutor Mário Pinoti, 130/101 - Nova Iguaçu-RJ</span>
+              </div>
+
+              <div> 
+                <i class="bi bi-envelope-fill"></i>
+                <span style="font-size:1.0rem; color: white;" class="textoRodape">restaurantelukas@live.com</span>
+              </div>
+             
+              <div>
+                <i class="bi bi-telephone-fill"></i>
+                <span style="font-size:1.0rem; color: white;" class="textoRodape">+55 21 9808-44172</span>
+              </div>
+              <div>
+                <a href="#" class="fa fa-facebook px-3" style="font-size: x-large; align-self: center;"></a>
+                <a href="#" class="fa fa-instagram px-3" style="font-size: x-large; align-self: center;"></a>
+                <a href="#" class="fa fa-whatsapp px-3" style="font-size: x-large; align-self: center;"></a>
+              </div>
+                
+            </div>
+        </div>
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-12 d-flex justify-content-center" style="background:#552e1b;">
+              <span style="color:white;" class="mr-3"><h6>Todos os direitos reservados à Luka's</h6></span>
+              <span style="color:white;"><h6>Desenvolvido por Lucas Santi</h6></span>
+            </div>
+            
+          </div>
+        </div>
+    </div>
+ 
+  </body>
+</html>
