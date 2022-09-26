@@ -194,7 +194,7 @@ input.botaoCardapio:hover{
 	opacity: 1.0;
 }
 
-input.botaoFinalizar {
+button.botaoFinalizar {
 	text-transform: uppercase;
 	width: 250px;
 	height: 50px;
@@ -207,7 +207,7 @@ input.botaoFinalizar {
 	text-align: center;
 }
 
-button.botaoFinalizar {
+input.botaoFinalizar {
 	text-transform: uppercase;
 	width: 250px;
 	height: 50px;
@@ -240,9 +240,6 @@ textarea {
 	margin-left: 1rem;
 }
 
-#inputForm {
-	width: 39rem;
-}
 
 /* cardápio */
 
@@ -285,6 +282,7 @@ img.height {
 	height: 12.74rem;
 
 }
+
 
 
 
